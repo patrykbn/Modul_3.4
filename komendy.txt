@@ -1,0 +1,9 @@
+html Validate:
+    create a config file: .htmlvalidate.json
+        {
+            "extends": ["html-validate:recommended"]
+        }   
+    run with:
+        npm exec html-validate yourfile.html
+
+    
